@@ -60,9 +60,16 @@ We trained **three models**:
 
 ## 📈 Results & Visualizations
 
-All graphs and curves are saved in the `/curves/` folder:  
-- **Training curves** for all models  
-- **ROC curves** for hybrid and base models  
+All graphs and curves are saved in the `/curves/` folder. Below are the key visualizations for each model:
+
+### **1. Base DenseNet121 Model (No Augmentation)**
+![Base Training Curves](/curves/base_training_curves.png)
+
+### **2. DenseNet121 with Augmentation**
+![Pretrained Training Curves](/curves/pretrained_training_curves.png)
+
+### **3. EfficientNetB0 Hybrid Model (OpenCV + CNN + XGBoost)**
+![Hybrid ROC Curves](/curves/hybrid_roc_curves.png)
 
 ---
 
@@ -82,19 +89,27 @@ All graphs and curves are saved in the `/curves/` folder:
 ## 🚀 How to Run
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/your-username/Chest-X-ray-Disease-Classification.git
 cd Chest-X-ray-Disease-Classification
 ```
+
 2. Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
+
 3. Run the Jupyter notebook for preprocessing, training, and evaluation:
+
 ```bash
 jupyter notebook
 ```
+
 4. Explore results in the `/curves/` folder.
+
+---
 
 ## 📌 Future Improvements
 
@@ -103,9 +118,13 @@ jupyter notebook
 - Explore additional data augmentation techniques
 - Optimize hybrid model with hyperparameter tuning
 
+---
+
 ## 📄 License
 
 This project is licensed under the MIT License.
+
+---
 
 ## 🙏 Acknowledgements
 
