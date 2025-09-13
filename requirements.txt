@@ -1,0 +1,15 @@
+kagglehub
+pillow
+pathlib
+
+
+numpy=1.26.4
+pandas
+matplotlib
+scikit-learn
+
+opencv-python=4.9.0
+TensorFlow=2.15.0
+imgaug  
+tensorflow_addons
+xgboost
