@@ -131,9 +131,3 @@ This project is licensed under the MIT License.
 - Kaggle chest X-ray dataset
 - Open-source libraries for computer vision and deep learning
 - Tutorials and community contributions on medical image classification
-
-```pgsql
-If you want, I can also **add a clean GitHub-ready version with badges, dataset link badge, Python version badge, and quick demo images** to make it **look very professional on GitHub**.  
-
-Do you want me to do that?
-```
